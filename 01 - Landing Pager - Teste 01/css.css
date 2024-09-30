@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.62%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logotopo{
+    width: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: "Sarala", sans-serif;
+    margin: 5px;
+    gap: 32px;
+}
+
+li a {
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ballebot {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.1px solid #fff2e7;
+}
+
+footer {
+    border-top: 0.1px solid #fff2e7;
+    padding: 32px;
+}
+footer img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.utilidades {
+    margin-bottom: 48px;    
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.cadastro h1 {
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 54px;
+    color: #fff2e7;
+}
+
+.cadastro h2 {
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff2e7;
+}
+
+.cadastro button {
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2f2325;
+}
+
+.cadastro button:hover{
+    background-color: rgb(236, 214, 196, 0.53);
+}
+
+.utilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.utilidades img {
+    height: 485px;
+}
+
+.utilidades h2 {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 34px;
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2ef;
+    margin-bottom: 16px;
+}
+
+.utilidades li {
+    padding: 16px;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2f2325;
+}

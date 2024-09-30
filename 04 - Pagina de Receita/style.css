@@ -1,0 +1,120 @@
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.paddinggeral {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.centerconteiner {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+body {
+    background-color: rgb(226, 220, 192);
+    height: 100vh;
+}
+
+.namerecipe h1, p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify ;
+}
+
+.namerecipe h1 {
+    font-size: 40px;
+}
+
+.namerecipe p {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.namerecipe img {
+    max-width: 95%;
+    margin: auto;
+    padding-top: 15px;
+    height: auto;
+    display: block;
+    border-radius: 35px;
+}
+
+.preparationtime {
+    margin: auto;
+    width: 750px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    background-color: rgb(243, 209, 226);
+}
+
+.preparationtime h2 {
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.preparationtime li {
+    font-size: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.linha {
+    width: 95%; /* Faz a linha ocupar toda a largura disponível */
+    height: 1px; /* Altura da linha */
+    background-color: #d6bc9f;
+    border-radius: 5px; /* Cantos arredondados */
+    margin: auto;
+}   
+    
+
+.ingredients h2 {
+    color: #d6bc9f;
+}
+
+.Instructions h2 {
+    color: rgb(214, 188, 159);
+}
+
+.Instructions li {
+    padding-bottom: 15px;
+}
+
+.tablenutrition h2 {
+    color: #d6bc9f;
+}
+
+table {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+table td, th {
+    border-bottom: 1px solid #d6bc9f; 
+    padding: 5px;
+    text-align: left;
+    margin: 0;
+}
+
+table td:nth-child(2) {
+    color: #d6bc9f;
+}
+
+footer {
+    padding: 20px;
+}
